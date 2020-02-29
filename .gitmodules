@@ -1,0 +1,6 @@
+[submodule "ohmyzsh"]
+	path = ohmyzsh
+	url = https://github.com/ohmyzsh/ohmyzsh/
+[submodule "vimrc"]
+	path = vimrc
+	url = https://github.com/amix/vimrc
