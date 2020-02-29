@@ -16,11 +16,11 @@ Clone this repo, and then cop the files to your home dir:
 ```bash
 # If you have old config save it
 #oh my zsh
-cp zshrc $HOME_DIR/.oh-my-zsh
+cp zshrc $HOME/.oh-my-zsh
 #vim
-cp vimrc $HOME_DIR/.vimrc
+cp vimrc-config $HOME/.vimrc
 #tmux
-cp tmux.conf $HOME_DIR/.tmux.conf.local
+cp tmux.conf $HOME/.tmux.conf.local
 
 ```
 
