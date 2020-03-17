@@ -11,17 +11,12 @@ Here are my dotfiles config, just to have them in one place.
 - [tmux](https://github.com/tmux/tmux)
 - [asdf](https://github.com/asdf-vm/asdf) (Optional)
 
-Clone this repo, and then cop the files to your home dir:
 
+Instaling from scrip, using `prepare.sh`, download the file beafore the repo:
 ```bash
-# If you have old config save it
-#oh my zsh
-cp zshrc $HOME/.oh-my-zsh
-#vim
-cp vimrc-config $HOME/.vimrc
-#tmux
-cp tmux.conf $HOME/.tmux.conf.local
-
+curl -oL https://raw.githubusercontent.com/mrchucu1/dotfiles/master/prepare.sh
+chmod +x prepare.sh
+./prepare.sh
 ```
 
 ## Usage
