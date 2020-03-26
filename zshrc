@@ -96,7 +96,7 @@ export PATH="$PATH:$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:/
 # Alias for work
 
 ## gcloud aliases
-alias g='gcloud'
+alias gc='gcloud'
 alias gconfl='gcloud config configurations list'
 alias gconfa='gcloud config configurations activate'
 alias gclusl='gcloud container clusters list'
@@ -152,3 +152,14 @@ alias kru='k rollout undo'
 # Logs
 alias kl='k logs'
 alias klf='k logs -f'
+
+# Powerline
+powerline-daemon -q
+. /usr/lib/python3.8/site-packages/powerline/bindings/zsh/powerline.zsh
+
+#Docker env
+export DOCKER_HOST="tcp://192.168.0.29:2376"
+export DOCKER_CERT_PATH="/home/mrchucu1/.minikube/certs"
+export DOOCKER_TLS_VERIFY="1"
+
+. /home/mrchucu1/.asdf/asdf.sh
