@@ -15,7 +15,7 @@ Here are my dotfiles config, just to have them in one place.
 Instaling from scrip, using `prepare.sh`, download the file beafore the repo:
 ```bash
 cd $HOME
-curl -o https://raw.githubusercontent.com/mrchucu1/dotfiles/master/prepare.sh
+curl -OL https://raw.githubusercontent.com/mrchucu1/dotfiles/master/prepare.sh
 chmod +x prepare.sh
 ./prepare.sh
 ```

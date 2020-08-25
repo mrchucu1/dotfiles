@@ -8,7 +8,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="agnoster"
+ZSH_THEME="af-magic"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -74,7 +74,7 @@ source $ZSH/oh-my-zsh.sh
 # export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
-export EDITOR='vim'
+export EDITOR='nvim'
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
@@ -154,12 +154,14 @@ alias kl='k logs'
 alias klf='k logs -f'
 
 # Powerline
-powerline-daemon -q
-. /usr/lib/python3.8/site-packages/powerline/bindings/zsh/powerline.zsh
+#powerline-daemon -q
+#. /usr/lib/python3.8/site-packages/powerline/bindings/zsh/powerline.zsh
 
 #Docker env
-export DOCKER_HOST="tcp://192.168.0.29:2376"
-export DOCKER_CERT_PATH="/home/mrchucu1/.minikube/certs"
-export DOOCKER_TLS_VERIFY="1"
+#export DOCKER_HOST="tcp://192.168.0.29:2376"
+#export DOCKER_CERT_PATH="/home/mrchucu1/.minikube/certs"
+#export DOOCKER_TLS_VERIFY="1"
 
 . /home/mrchucu1/.asdf/asdf.sh
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

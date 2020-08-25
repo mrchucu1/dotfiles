@@ -1,10 +1,15 @@
 # !/bin/bash
 
 #install dependencies
-sudo apt install -y --force-yes tmux zsh lastpass-cli xclip
+sudo yum install tmux zsh lastpass-cli xclip git neovim
 
 #Download dotfiles
 git clone https://github.com/mrchucu1/dotfiles.git $HOME/.dotfiles
+
+# Download asdf
+git clone https://github.com/asdf-vm/asdf.git ~/.asdf
+asdf plugin-add nodejs https://github.com/asdf-vm/asdf-nodejs.git
+bash ~/.asdf/plugins/nodejs/bin/import-release-team-keyring
 
 # Install zsh
 git clone https://github.com/ohmyzsh/ohmyzsh.git $HOME/.dotfiles/ohmyzsh
@@ -20,12 +25,12 @@ ln -s -f $HOME/.tmux/.tmux.conf $HOME/.tmux.conf
 ln -s -f $HOME/.dotfiles/tmux.conf $HOME/.tmux.conf.local
 
 #install vim
-git clone https://github.com/amix/vimrc $HOME/.dotfiles/vimrc
-ln -s $HOME/.dotfiles/vimrc $HOME/.vim_runtime
-ln -s $HOME/.dotfiles/vimrc-config $HOME/.vimrc
+#git clone https://github.com/amix/vimrc $HOME/.dotfiles/vimrc
+#ln -s $HOME/.dotfiles/vimrc $HOME/.vim_runtime
+ln -s $HOME/.dotfiles/vimrc-config $HOME/.config/nvim/init.vim
 
 #change shell
-chsh $(which zsh)
+chsh $USER --shell=$(which zsh)
 
 ##That's all falks
 echo "Thanks for using mrchucu1's dotfiles auto instalation tool."
