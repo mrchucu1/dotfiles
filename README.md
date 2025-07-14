@@ -2,6 +2,8 @@
 
 Here are my dotfiles config, just to have them in one place.
 
+A way to have same (or close to) look and feel for the terminal in different environments. Minimal configuration preferred.
+
 ## Installation
 
 ### Prerequisits
