@@ -89,9 +89,6 @@ export EDITOR='nvim'
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 export PATH="$PATH:$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:/usr/bin"
-#/home/diego/.asdf/installs/golang/1.10.310.310.310.310.310.310.310.310.310.3/go/bin:
-#export GLIDE_DIR="/home/diego/.go/bin"
-#[ -s "$GLIDE_DIR/glide" ] && \. "$GLIDE_DIR/glide"
 
 # Alias for work
 
@@ -152,16 +149,5 @@ alias kru='k rollout undo'
 # Logs
 alias kl='k logs'
 alias klf='k logs -f'
-
-# Powerline
-#powerline-daemon -q
-#. /usr/lib/python3.8/site-packages/powerline/bindings/zsh/powerline.zsh
-
-#Docker env
-#export DOCKER_HOST="tcp://192.168.0.29:2376"
-#export DOCKER_CERT_PATH="/home/mrchucu1/.minikube/certs"
-#export DOOCKER_TLS_VERIFY="1"
-
-. /home/mrchucu1/.asdf/asdf.sh
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

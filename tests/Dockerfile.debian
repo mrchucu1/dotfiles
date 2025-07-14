@@ -1,0 +1,6 @@
+from debian
+run apt update && apt install --assume-yes git sudo curl
+copy prepare.ubuntu.sh .
+run chmod +x ./prepare.ubuntu.sh
+run ./prepare.ubuntu.sh
+entrypoint /bin/zsh
