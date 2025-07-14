@@ -1,0 +1,6 @@
+from fedora
+run yum update && yum install -y curl sudo
+copy ./prepare.fedora.sh .
+run chmod +x ./prepare.fedora.sh
+run ./prepare.fedora.sh
+entrypoint /bin/zsh

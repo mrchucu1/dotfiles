@@ -1,0 +1,6 @@
+from archlinux
+run pacman -Syy --noconfirm curl sudo git
+copy prepare.arch.sh .
+run chmod +x ./prepare.arch.sh
+run ./prepare.arch.sh
+entrypoint /bin/zsh
