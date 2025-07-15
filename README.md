@@ -38,24 +38,24 @@ Run the single command for your OS to download the installer and begin the setup
 
 ### 🍎 macOS
 ```bash
-zsh -c "$(curl -fsSL https://raw.githubusercontent.com/mrchucu1/dotfiles/main/prepare.osx.sh)"
+zsh -c "$(curl -fsSL https://raw.githubusercontent.com/mrchucu1/dotfiles/refs/heads/master/prepare.osx.sh)"
 ```
 
 ### 🐧 Linux
 
 #### **Ubuntu**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/mrchucu1/dotfiles/main/prepare.ubuntu.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/mrchucu1/dotfiles/refs/heads/master/prepare.ubuntu.sh)"
 ```
 
 #### **Fedora**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/mrchucu1/dotfiles/main/prepare.fedora.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/mrchucu1/dotfiles/refs/heads/master/prepare.fedora.sh)"
 ```
 
 #### **Arch Linux**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/mrchucu1/dotfiles/main/prepare.arch.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/mrchucu1/dotfiles/refs/heads/master/prepare.arch.sh)"
 ```
 
 After the script completes, restart your terminal or log out and log back in for all changes to take effect.
