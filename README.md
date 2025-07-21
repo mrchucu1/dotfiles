@@ -2,7 +2,7 @@
 
 # 👨‍💻 @mrchucu1's Dotfiles
 
-My personal configuration files for a consistent and customized development environment.
+My personal configuration files for a consistent and customized development environment. Bonus shortcuts.
 
 <!-- Badges -->
 <p>
