@@ -121,4 +121,6 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Please make sure to update tests as appropriate.
 
 ## License
+This software is provided as is and the use of it is responsibility of the user.
+
 [MIT](https://choosealicense.com/licenses/mit/)
