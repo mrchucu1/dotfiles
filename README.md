@@ -3,7 +3,7 @@
 # 👨‍💻 @mrchucu1's Dotfiles
 
 My personal configuration files for a consistent and customized development environment. Bonus shortcuts.
-
+<!--BEST BADGES-->
 <!-- Badges -->
 <p>
   <img src="https://img.shields.io/github/last-commit/mrchucu1/dotfiles?style=for-the-badge&logo=github&logoColor=white&color=black" alt="Last Commit"/>
