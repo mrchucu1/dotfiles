@@ -41,6 +41,11 @@ Run the single command for your OS to download the installer and begin the setup
 zsh -c "$(curl -fsSL https://raw.githubusercontent.com/mrchucu1/dotfiles/refs/heads/master/prepare.osx.sh)"
 ```
 
+```bash
+#Install it without root permissions
+zsh -c "$(curl -fsSL https://raw.githubusercontent.com/mrchucu1/dotfiles/refs/heads/master/prepare.osx.nroot.sh)"
+```
+
 ### 🐧 Linux
 
 #### **Ubuntu**
