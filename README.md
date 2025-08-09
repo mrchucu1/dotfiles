@@ -30,6 +30,7 @@ This setup installs and configures a complete terminal environment with a focus 
 *   **📦 Version Management:** Installs **`asdf`** to easily manage multiple runtime versions (e.g., Node.js, Go).
 *   **☁️ Cloud-Native Aliases:** Includes a large set of aliases for `kubectl` and `gcloud` to speed up your workflow.
 
+<!--TODO: Add more shortcuts alias-->
 ---
 
 ## 🛠️ One-Step Installation
